@@ -12,5 +12,3 @@ Check out the code with `Markdown`:
 * The *10 MINTE MARKDOWN TUTORIAL* help me a lot
 ```
 * *VSCode* change pushback test
-
-![Image](lab0-screenshot.png)
