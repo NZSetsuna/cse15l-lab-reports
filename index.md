@@ -1,3 +1,3 @@
 Hello, world! 
 Shall we begin?
-This is Setsuna
+This is Setsuna.
