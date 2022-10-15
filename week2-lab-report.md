@@ -77,10 +77,10 @@ public class SearchEngine {
 
 **Part 2**
 1. First bug
-    * The failure-inducing input:
+    * The failure-inducing input:\
     ![Image](pic/test_code_1.png)
-    * The symptom:
+    * The symptom:\
     ![Image](pic/symptom_1.png)
-    * The bug:
+    * The bug:\
     ![Imgae](pic/bug_1.png)
     * The problem of the reverseInPlace() implementation is it doesn’t create a new array to store the value of the reverse array. According to the output in symptom, we can find that the consequence of this problem is that the first element in the unique array input1 directly becomes the last element in this array. Therefore, when looping to the elements after the median sorting of the array size, the elements before the median sorting have been overwritten by the new elements, and the result is that the elements after the median will not change.
